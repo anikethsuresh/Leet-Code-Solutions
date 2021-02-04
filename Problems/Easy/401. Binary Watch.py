@@ -2,10 +2,10 @@
 401. Binary Watch
 
 Notes: 
-We loop through every single minute of the day (12 * 60 = 720 iterations),
+I loop through every single minute of the day (12 * 60 = 720 iterations),
 Convert the hour and minute to binary and sum them.
 If the sum == num (input to readBinaryWatch), then it is a candidate.
-We append the candidate to a list after formatting the time with leading 0's for the minutes.
+I append the candidate to a list after formatting the time with leading 0's for the minutes.
 """
 
 class Solution:
