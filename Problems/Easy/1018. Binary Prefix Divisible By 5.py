@@ -17,9 +17,9 @@ I've left the poor solution in comments.
 If the number you include is 0, we just have to multiply that number by 2 and you're done.
 If the number you include is 1, we just have to multiply that number by 2 and add 1, and you're done. This is exactly what I have done.
 
-The intersting facet is in the formula below:
+The interesting facet is in the formula below:
 
-(ab+c)%5 = ((a%5)*(b%5) + c%5) %5
+(ab+c)%5 = ((a%5)*(b%5)+c%5) %5
 
 Here, a is the current running_sum, b is 2 and c is either 0/1. The %5 is from the question, since we need to check the divisibility with 5.
 This prevents us from having a "results" array as I did in the first poor solution.
